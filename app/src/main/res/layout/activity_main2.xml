@@ -11,10 +11,14 @@
         android:id="@+id/imageView12"
         android:layout_width="77dp"
         android:layout_height="77dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="131dp"
         android:layout_marginEnd="93dp"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/deposit"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -23,7 +27,12 @@
         android:layout_height="77dp"
         android:layout_marginStart="103dp"
         android:layout_marginTop="131dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="abrirTelaInformacoes"
         android:src="@drawable/manuser"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,10 +41,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="103dp"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="45dp"
         android:text="Account\nInformation"
         android:textAlignment="center"
         android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
@@ -43,8 +56,8 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="92dp"
         android:layout_marginBottom="305dp"
         android:text="Credit\nHistory"
         android:textAlignment="center"
@@ -57,8 +70,8 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="322dp"
         android:text="Withdraw"
         android:textAlignment="center"
@@ -71,12 +84,16 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="107dp"
+        android:layout_marginBottom="62dp"
         android:text="Deposit"
         android:textAlignment="center"
         android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <ImageView
@@ -85,8 +102,11 @@
         android:layout_height="77dp"
         android:layout_marginStart="101dp"
         android:layout_marginTop="45dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/withdraw"
         app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/imageView17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -94,11 +114,14 @@
         android:id="@+id/imageView17"
         android:layout_width="77dp"
         android:layout_height="77dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="62dp"
         android:layout_marginEnd="93dp"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/invoice"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
