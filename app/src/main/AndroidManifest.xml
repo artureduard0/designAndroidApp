@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".opcoes"></activity>
-        <activity android:name=".infoConta" />
+        <activity android:name=".signup"></activity>
+        <activity android:name=".options" />
+        <activity android:name=".userInfo" />
         <activity android:name=".openLiveChat" />
         <activity android:name=".MainActivity">
             <intent-filter>

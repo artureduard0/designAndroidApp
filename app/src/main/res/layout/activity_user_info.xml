@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#104E0E"
-    tools:context=".infoConta">
+    tools:context=".userInfo">
 
 
     <Button
@@ -60,9 +60,10 @@
         android:drawableLeft="@drawable/lock"
         android:drawablePadding="6dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="New Password"
+        android:inputType="textPassword"
         android:padding="5dp"
-        android:text="New Password"
+        android:textColorHint="#000000"
         app:layout_constraintBottom_toTopOf="@+id/editText9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -82,9 +83,10 @@
         android:drawableLeft="@drawable/lock"
         android:drawablePadding="6dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
         android:padding="5dp"
-        android:text="Confirm Password"
+        android:textColorHint="#000000"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

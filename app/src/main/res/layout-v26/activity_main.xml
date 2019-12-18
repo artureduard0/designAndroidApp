@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/world"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="TODO" />
 
     <Button
         android:id="@+id/button"
@@ -81,7 +81,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/share"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="TODO" />
 
     <EditText
         android:id="@+id/editText"
@@ -105,7 +105,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        android:autofillHints="" tools:targetApi="o" />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editText2"
@@ -128,7 +128,7 @@
         app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        android:autofillHints="" tools:targetApi="o" />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editText3"
@@ -139,7 +139,7 @@
         android:layout_marginBottom="84dp"
         android:background="#FFF"
         android:ems="10"
-        android:hint="@string/enter_code"
+        android:hint="Enter Code"
         android:inputType="textPassword"
         android:padding="5dp"
         android:singleLine="true"
@@ -151,7 +151,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2"
         app:layout_constraintVertical_bias="0.55"
-        android:autofillHints="" tools:targetApi="o" />
+        android:autofillHints="" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -160,7 +160,7 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="145dp"
         android:layout_marginBottom="30dp"
-        android:text="@string/remember_password"
+        android:text="Remember Password"
         android:textColor="#ffffff"
         android:textColorHighlight="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/button"
@@ -181,8 +181,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/editText3"
         app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:srcCompat="@drawable/captcha"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/captcha" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
